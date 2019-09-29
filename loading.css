@@ -1,0 +1,30 @@
+body{
+ margin: 0;
+ padding:0;
+ display:flex;
+ background-color:black;
+ justify-content: center;
+ align-items: center;
+ min-height:100vh;
+}
+svg{
+    width:100px;
+    height:100px;
+}
+svg rect{
+    stroke:#190061;
+    fill:none;
+    stroke-width:100px;
+    width:100px;
+    height:100px;
+    animation:animate 1s linear infinite;
+    stroke-dasharray:100;
+    stroke-dashoffset:50%;
+}
+@keyframes animate{
+    to{
+        stroke-dashoffset: 250%;
+
+    }
+}
+
