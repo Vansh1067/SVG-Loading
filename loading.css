@@ -1,4 +1,4 @@
-body{
+/* body{
  margin: 0;
  padding:0;
  display:flex;
@@ -6,12 +6,12 @@ body{
  justify-content: center;
  align-items: center;
  min-height:100vh;
-}
-svg{
+} */
+.loader{
     width:100px;
     height:100px;
 }
-svg rect{
+#reet{
     stroke:#190061;
     fill:none;
     stroke-width:100px;
